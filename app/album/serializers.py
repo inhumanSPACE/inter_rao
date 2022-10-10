@@ -16,7 +16,7 @@ class AlbumCreateSerializer(serializers.ModelSerializer):
 
 
 class AlbumSerializer(serializers.ModelSerializer):
-    profile = serializers.HiddenField(default=serializers.CurrentUserDefault())
+    # profile = serializers.HiddenField(default=serializers.CurrentUserDefault())
 
     class Meta:
         model = Album
