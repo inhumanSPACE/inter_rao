@@ -25,6 +25,7 @@ urlpatterns = [
     path("api/v1/profile/list/", ProfileVIEWSet.as_view({"get": "list"})),
     path("api/v1/album/create/", AlbumAPICreate.as_view()),
     path("api/v1/album/", AlbumAPIList.as_view()),
+    path("api/v1/album/<int:pk>/", AlbumAPIList.as_view()),
     path("api/v1/album/update/<int:pk>/", AlbumAPIUpdate.as_view()),
     path("api/v1/album/delete/<int:pk>/", AlbumAPIDelete.as_view()),
     path(
