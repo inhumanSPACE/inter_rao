@@ -9,7 +9,7 @@
   http://127.0.0.1:8000/api/v1/album/create/
 
 - Редактировать название альбома
-  http://127.0.0.1:8000/api/v1/album/<int: pk>/
+  http://127.0.0.1:8000/api/v1/album/<update/int: pk>/
 
 - Получить один альбом
   http://127.0.0.1:8000/api/v1/album/<int: pk>/
